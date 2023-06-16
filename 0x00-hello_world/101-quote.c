@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char Mystr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char Mystr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 	write(STDOUT_FILENO, Mystr, sizeof(Mystr) - 1);
 
