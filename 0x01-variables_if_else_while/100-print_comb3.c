@@ -17,6 +17,11 @@ int main(void)
 		{
 			putchar(48 + i);
 			putchar(48 + j);
+			if (j < 9)
+			{
+				putchar(44);
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
