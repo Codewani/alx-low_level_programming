@@ -11,15 +11,14 @@ int main(void)
 
 	int j;
 
-	int k;
-
-
-	for (i = 0; a <= 9; i++)
-		for (j = i + 1; j < 9; j++)
+	for (i = 0; i <= 9; i++)
+	{
+		for (j = i + 1; j <= 9; j++)
 		{
 			putchar(48 + i);
 			putchar(48 + j);
 		}
+	}
 	putchar('\n');
 
 	return (0);
