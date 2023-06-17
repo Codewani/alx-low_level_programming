@@ -10,7 +10,7 @@ int main(void)
 	int a;
 
 	for (a = 0; a <= 25; a++)
-		puts(97 + a);
+		putchar(97 + a);
 
 	return (0);
 }
