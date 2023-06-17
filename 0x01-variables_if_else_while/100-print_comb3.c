@@ -17,7 +17,7 @@ int main(void)
 		{
 			putchar(48 + i);
 			putchar(48 + j);
-			if (j < 9)
+			if (j <= 9 && (i != 9 && j != 9))
 			{
 				putchar(44);
 				putchar(' ');
