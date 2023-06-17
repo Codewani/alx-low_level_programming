@@ -11,7 +11,7 @@ int main(void)
 
 	for (a = 0; a <= 25; a++)
 	{
-		if ( a != 4 && a != 16)
+		if (a != 4 && a != 16)
 			putchar(97 + a);
 	}
 	putchar('\n');
