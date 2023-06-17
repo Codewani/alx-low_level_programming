@@ -12,7 +12,8 @@ int main(void)
 	for (a = 0; a <= 9; a++)
 	{
 		putchar(48 + a);
-		putchar(', ');
+		putchar(44);
+		putchar(' ');
 	}
 	putchar('\n');
 
