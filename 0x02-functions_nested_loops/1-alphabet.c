@@ -6,7 +6,8 @@
  *It prints a string to the console.
  *Return: 0  Program executed successfully.
  */
-void print_alphabet(void){
+void print_alphabet(void)
+{
 	int a;
 
 	for (a = 0; a <= 25; a++)
