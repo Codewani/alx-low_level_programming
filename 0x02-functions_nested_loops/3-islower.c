@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_islower(int c) - Tells you whether the parameter is lower case or not 
+ *_islower(int c) - Tells you whether the parameter is lower case or not
  *@int c: accepts an integer c
  *It prints a string to the console.
  *Return: 1 if lower case and 0 if not.
