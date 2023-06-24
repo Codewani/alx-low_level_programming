@@ -1,5 +1,5 @@
-include <stdio.h>
-include "main.h"
+#include <stdio.h>
+#include "main.h"
 /**
  *main - demonstrates the usage of the puts() function.
  *@void: no parameters accepted
