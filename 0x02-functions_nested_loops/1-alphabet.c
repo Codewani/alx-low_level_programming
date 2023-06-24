@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  *main - demonstrates the usage of the puts() function.
