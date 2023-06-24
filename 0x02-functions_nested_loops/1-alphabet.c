@@ -6,11 +6,6 @@
  *It prints a string to the console.
  *Return: 0  Program executed successfully.
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 void print_alphabet(void){
 	int a;
 
