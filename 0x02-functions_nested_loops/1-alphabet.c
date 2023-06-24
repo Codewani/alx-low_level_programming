@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *main - demonstrates the usage of the puts() function.
+ *print_alphabet - prints the alphabet
  *@void: no parameters accepted
  *It prints a string to the console.
- *Return: 0  Program executed successfully.
+ *Return: void
  */
 void print_alphabet(void)
 {
