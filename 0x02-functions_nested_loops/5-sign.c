@@ -8,12 +8,12 @@
  */
 int print_sign(int n)
 {
-	if (n > o)
+	if (n > 0)
 	{
 		printf("+");
 		return (1);
 	}
-	if (n < o)
+	if (n < 0)
 	{
 		printf("-");
 		return (-1);
