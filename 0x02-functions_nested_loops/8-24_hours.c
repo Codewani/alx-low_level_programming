@@ -23,11 +23,11 @@ void jack_bauer(void)
 			m = '3';
 		else
 			m = '9';
-		for (j = '0'; j <=m; j++)
+		for (j = '0'; j <= m; j++)
 		{
-			for (k = '0'; k <='5'; k++)
+			for (k = '0'; k <= '5'; k++)
 			{
-				for (l = '0'; l <='9'; l++)
+				for (l = '0'; l <= '9'; l++)
 				{
 					putchar(i);
 					putchar(j);
