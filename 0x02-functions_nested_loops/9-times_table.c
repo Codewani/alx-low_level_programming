@@ -18,6 +18,6 @@ void times_table(void)
 			if (j != 9)
 				putchar(44);
 		}
-		putchar("\n");
+		printf("\n");
 	}
 }
