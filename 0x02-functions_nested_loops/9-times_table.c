@@ -18,7 +18,7 @@ void times_table(void)
 			if (j != 9)
 			{
 				putchar(44);
-				if ((j + 1) * i > 10)
+				if ((j + 1) * i >= 10)
 					putchar(' ');
 				else
 					printf("  ");
