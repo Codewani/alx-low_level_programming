@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *jack_bauerjack_bauer - Tells you whether the parameter is lower case or not
+ *jack_bauer - Tells you whether the parameter is lower case or not
  *@void
  *Return: Does not return anything.
  */
