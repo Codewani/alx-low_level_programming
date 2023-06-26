@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  *_strlen - check the code
  *@s: pointer to a str
