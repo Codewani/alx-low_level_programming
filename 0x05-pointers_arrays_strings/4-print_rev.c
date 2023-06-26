@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * print_rev - check the code
- *
+ * @s: points to char s
  * Return: Always 0.
  */
 void print_rev(char *s)
