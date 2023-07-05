@@ -6,14 +6,14 @@
  */
 void _puts_recursion(char *s)
 {
-	printf("%c", *s);
-	s++;
-	if (*s != '\0')
+	if (*s == '\0')
 	{
-		_puts_recursion(s);
+		printf("\n");
 	}
 	else
 	{
-		printf("\n");
+		printf("%c", *s);
+		s++;
+		_puts_recursion(s);
 	}
 }
