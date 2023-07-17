@@ -4,7 +4,7 @@
  *Return: 0 when program runs succesfully
  */
 
-int main()
+int main(void)
 {
 	printf("%d", __FILE__);
 	return (0);
